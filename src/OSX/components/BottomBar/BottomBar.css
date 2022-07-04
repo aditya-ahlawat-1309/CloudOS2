@@ -1,0 +1,32 @@
+.bottombar-header{
+position: absolute;
+bottom:0%;
+min-width: 55%;
+min-height: 80px;
+margin-left: 22.5%;
+/* clip-path: polygon(5% 0px, 95% 0px, 100% 100%, 10px 100%); */
+/* clip-path: polygon(20% 0px, 80% 0px, 80% 50%, 100% 100%, 0% 100%, 20% 50%);background: linear-gradient(90deg, rgb(12, 167, 214) 10%, rgba(256, 256, 256, 1) 30%, rgba(256, 256, 256, 1) 80%, rgb(12, 167, 214) 100%); */
+/* background: linear-gradient(90deg, rgb(0, 0, 19) 10%, rgba(256, 256, 256, 1) 30%, rgba(256, 256, 256, 1) 80%, rgb(0, 0, 35) 100%); */
+/* background-color: #000; */
+
+ /* background-image:url('https://images.unsplash.com/photo-1484291470158-b8f8d608850d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80') ;  */
+/* background-image:url('https: //a-static.besthdwallpaper.com/nature-greenery-background-wallpaper-2560x1600-10692_7.jpg');
+background-repeat: no-repeat;
+background-size: cover; */
+
+}
+.bottombar-header-back {
+    position: absolute;
+    bottom: 6.785%;
+    min-width: 90%;
+    min-height: 80px;
+    margin-left:5%;
+    /* background: linear-gradient(90deg, rgb(12, 167, 214) 10%, rgba(256, 256, 256, 1) 30%, rgba(256, 256, 256, 1) 80%, rgb(12, 167, 214) 100%); */
+    /* background: linear-gradient(90deg, rgb(0, 0, 19) 10%, rgba(256, 256, 256, 1) 30%, rgba(256, 256, 256, 1) 80%, rgb(0, 0, 35) 100%); */
+    /* background-color: #000; */
+
+    /* background-image:url('https://images.unsplash.com/photo-1484291470158-b8f8d608850d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80') ;  */
+    /* background-image:url('https: //a-static.besthdwallpaper.com/nature-greenery-background-wallpaper-2560x1600-10692_7.jpg');
+background-repeat: no-repeat;
+background-size: cover; */
+}

@@ -1,0 +1,4 @@
+.Icons-animation:hover{
+    transform: scale(1.5);
+    transition: transform .2s;
+}

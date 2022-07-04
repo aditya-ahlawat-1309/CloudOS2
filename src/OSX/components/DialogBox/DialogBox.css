@@ -1,0 +1,10 @@
+.dialog-container{
+position:absolute;
+width:80%;
+height:75%;
+left:10%;
+top:5%;
+z-index: 150;
+background-color: rgb(239, 54, 137);
+text-align: center;
+}
