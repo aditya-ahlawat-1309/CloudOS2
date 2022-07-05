@@ -1,6 +1,6 @@
 import React from 'react'
 import Icons from '../BottomIcons/Icons';
-import image from '../../Media/bottomBar.jpg'
+
 
 import "./BottomBar.css"
 

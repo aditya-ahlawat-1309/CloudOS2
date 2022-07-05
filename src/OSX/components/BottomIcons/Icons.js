@@ -1,20 +1,4 @@
 import { useState } from "react";
-import finder from "../../Media/finder.png";
-import images from "../../Media/images.png";
-import projects from "../../Media/Projects.png";
-import notes from "../../Media/todoAppLogo.png";
-import Dictionary from "../../Media/Dictionary.png"
-import Achievements from "../../Media/Achievements.png"
-import Music from "../../Media/Music.png"
-import Chat from "../../Media/whatsapp.png"
-import Netflix from "../../Media/Netflix.png"
-import Passlock from "../../Media/Passlock.png"
-import Search from  "../../Media/Search.png"
-import Game from "../../Media/Game.png"
-import Git from "../../Media/github.png"
-
-import NASA from "../../Media/NASA.png"
-import Logo from "../../Media/windowlogo.png"
 import "./Icons.css"
 import DialogBox from "../DialogBox/DialogBox";
 
@@ -25,7 +9,7 @@ const Icons = () => {
   const handleClick = () => setShow(!show)
     return (
       <>
-      {show ? <DialogBox/> : null}
+        {show ? <DialogBox /> : null}
         <div
           style={{
             position: "absolute",
@@ -179,16 +163,17 @@ const Icons = () => {
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={NASA}
-                width="60px"
-                height="60px"
-                style={{ borderRadius: "15px",  }}
+                src={
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlRTPLbpf5MSrFZARAGidI9umaZfVcngvsQ&usqp=CAU"
+                }
+                width="57.5px"
+                height="57.5px"
+                style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          
           <a
             style={{
               backgroundColor: "Transparent",
@@ -205,10 +190,12 @@ const Icons = () => {
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={notes}
-                width="60px"
-                height="60px"
-                style={{ borderRadius: "15px",  }}
+                src={
+                  "https://play-lh.googleusercontent.com/92xIZAW-mdwucFX1v8kyTXlLVgZfLczHv8XCVOH1tFc0M3cTRI4q9qJLUM96PqCrgWjc"
+                }
+                width="57.5px"
+                height="57.5px"
+                style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
@@ -230,10 +217,12 @@ const Icons = () => {
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={Music}
+                src={
+                  "https://i.pinimg.com/originals/67/f6/cb/67f6cb14f862297e3c145014cdd6b635.jpg"
+                }
                 width="60px"
                 height="60px"
-                style={{ borderRadius: "15px",  }}
+                style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
@@ -251,16 +240,17 @@ const Icons = () => {
               marginRight: "1.5%",
             }}
             //href="https://drummusic.netlify.app"
-             onClick={() => handleClick()}
+            onClick={() => handleClick()}
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={Logo}
+                src={
+                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEXz8/PzUyWBvAYFpvD/ugjz9fb19Pbz+fr39fr69vPy9foAofD/tgDzRQB9ugAAo/Df6dCv0Xjz2dPzTBfzl4PznImz04CAx/H60oHS5vJ5xPH60Hn16dIAnvDz7u3z4t7n7dzzNADzkXurz3BwtQDzvrLM36zf6/Os2PL336z07d/7z3RN8WfWAAABg0lEQVR4nO3cyVLCYBCFURwCkXlygDBFUBTf//3cSGIVf5WrDi7O9wJdp3p/Wy1JkvSrLLzqVDu8FHAzjW57JrZ34+hSH5yWg9jK187PrXx/GMZ2GF9+MZsObmKbzSvhZHgb25CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCwUWE5i21QC/fB86Xp/dLt/DG4t/MGbf7+FNxkl9jZzTrR1TvCeXjJIWFJkv7uIbzqVDe8LAE8Lp+D+zgTu5/FS2zFKUFcrEex9ZaV8Ksf3Sol7N3FNqqFRf8+NkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQsJmhetebOtr75dmi+iO1anTKrrNJbDRsvCuDJQk6Z/1DSzvYqEfRCNJAAAAAElFTkSuQmCC"
+                }
                 width="60px"
                 height="60px"
-                style={{backgroundSize:"contain"}}
+                style={{ backgroundSize: "contain" }}
                 class="Icons-animation"
-                
               />
             </div>
           </button>
@@ -281,10 +271,12 @@ const Icons = () => {
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={Chat}
+                src={
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png"
+                }
                 width="60px"
                 height="60px"
-                style={{ borderRadius: "15px", }}
+                style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
@@ -306,10 +298,12 @@ const Icons = () => {
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={Git}
+                src={
+                  "https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-square-512.png"
+                }
                 width="60px"
                 height="60px"
-                style={{ borderRadius: "15px",  }}
+                style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>
@@ -331,10 +325,12 @@ const Icons = () => {
           >
             <div style={{ flexDirection: "column" }}>
               <img
-                src={Game}
+                src={
+                  "https://i.pinimg.com/564x/af/de/55/afde550fd6fa482cfae1440875c1f510.jpg"
+                }
                 width="60px"
                 height="60px"
-                style={{ borderRadius: "15px",  }}
+                style={{ borderRadius: "15px" }}
                 class="Icons-animation"
               />
             </div>

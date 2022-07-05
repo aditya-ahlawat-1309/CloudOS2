@@ -1,6 +1,5 @@
 import React from 'react'
 import "./DialogBox.css"
-import Weather from "../../Media/weather.png"
 const DialogBox = () => {
   return (
     <div class="dialog-container">
@@ -27,7 +26,9 @@ const DialogBox = () => {
         <a href="https://dynamicweatherapp.netlify.app" target="_blank">
           <div style={{ flexDirection: "column" }}>
             <img
-              src={Weather}
+              src={
+                "https://i.pinimg.com/originals/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.png"
+              }
               width="60px"
               height="60px"
               style={{
