@@ -16,7 +16,7 @@ import "./BottomBar.css"
   };
 
   return (
-    <div>
+    <div >
       <div
         style={{
           width: "50px",

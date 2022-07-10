@@ -8,6 +8,7 @@ import BlogPage from "./components/BlogPage";
 import MySkillsPage from "./components/MySkillsPage";
 import WorkPage from "./components/WorkPage";
 import { Route, Switch } from "react-router";
+import "./App.css";
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/work" component={WorkPage} />
         </Switch>
       </ThemeProvider>
+      
     </div>
   );
 };

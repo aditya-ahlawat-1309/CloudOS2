@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Mobile Message */
+.mobile-message {
+  display: none;
+}
+
+/* Media Query: Mobile Devices */
+@media screen and (max-width: 1000px) {
+  body{
+    visibility: hidden;
+      margin: 0;
+      padding: 0;
+  }
+
+  .mobile-message {
+    visibility: visible;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+  }
+}

@@ -14,6 +14,7 @@ import AboutPage from './AboutPage';
 
 
 
+
 const MainContainer = styled.div`
 background: ${props => props.theme.text};
 width:100vw;
@@ -197,6 +198,9 @@ const Main = () => {
 
   return (
     <>
+      <div className="mobile-message">
+        <h2>Please use application on larger screen</h2>
+      </div>
       <MainContainer>
         <DarkDiv click={click} />
 
@@ -304,6 +308,7 @@ Click on
       </MainContainer>
 
       <AboutPage />
+      
     </>
   );
 }

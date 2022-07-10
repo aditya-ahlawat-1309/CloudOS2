@@ -212,13 +212,13 @@ const Icons = () => {
               fontWeight: "bold",
               marginRight: "1.5%",
             }}
-            href="https://drummusic.netlify.app"
+            href="https://paint0183.netlify.app/"
             target="_blank"
           >
             <div style={{ flexDirection: "column" }}>
               <img
                 src={
-                  "https://i.pinimg.com/originals/67/f6/cb/67f6cb14f862297e3c145014cdd6b635.jpg"
+                  "https://library.kissclipart.com/20180919/xqe/kissclipart-paint-windows-7-logo-clipart-microsoft-paint-compu-77dbca5213901db1.png"
                 }
                 width="60px"
                 height="60px"

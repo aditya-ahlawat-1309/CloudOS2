@@ -43,6 +43,26 @@ const DialogBox = () => {
             />
           </div>
         </a>
+        <a href="https://drummusic.netlify.app" target="_blank">
+          <div style={{ flexDirection: "column" }}>
+            <img
+              src={
+                "https://i.pinimg.com/originals/67/f6/cb/67f6cb14f862297e3c145014cdd6b635.jpg"
+              }
+              width="60px"
+              height="60px"
+              style={{
+                borderRadius: "15%",
+                marginLeft: "-17.5%",
+                marginTop: "5%",
+                position: "absolute",
+              }}
+              class="Icons-animation"
+              width="100px"
+              height="100px"
+            />
+          </div>
+        </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
     </div>
