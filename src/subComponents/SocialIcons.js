@@ -34,7 +34,7 @@ const SocialIcons = (props) => {
           target="_blank"
           to={{ pathname: "https://github.com/aditya-ahlawat-1309" }}
         >
-          <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+          <Github width={45} height={45} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </NavLink>
       </div>
       <div>
@@ -43,7 +43,7 @@ const SocialIcons = (props) => {
           target="_blank"
           to={{ pathname: "https://leetcode.com/aditya_ahlawat_1309/" }}
         >
-          <Leetcode width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+          <Leetcode width={35} height={35} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </NavLink>
       </div>
       <div>
@@ -52,7 +52,7 @@ const SocialIcons = (props) => {
           target="_blank"
           to={{ pathname: "https://www.linkedin.com/in/ad-aditya/" }}
         >
-          <Linkedin width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+          <Linkedin width={35} height={35} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </NavLink>
       </div>
       <div>
@@ -61,7 +61,7 @@ const SocialIcons = (props) => {
           target="_blank"
           to={{ pathname: "https://www.hackerrank.com/adityaroyal10" }}
         >
-          <Hackerrank width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+          <Hackerrank width={35} height={35} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
         </NavLink>
       </div>
       <Line color = {props.theme}/>
