@@ -12,13 +12,19 @@ const Icons = () => {
         {show ? <DialogBox /> : null}
         <div
           style={{
-            position: "absolute",
-            bottom: "1%",
-            marginLeft: "30.5%",
-            zIndex: 1,
+            // position: "absolute",
+            //bottom: "1%",
+            //left: "32.35%",
+            zIndex: "11",
             display: "flex",
             color: "white",
-            zIndex: "7",
+            // alignItems:"center",
+            // textAlign:"center",
+            // justifyContent:"center",
+            position: "fixed",
+    top: "94.95%",
+    left: "50.75%",
+            transform:"translate(-50%,-50%)",
           }}
         >
           {/*  //  <a
@@ -152,11 +158,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              justifyContent: "center",
-              alignItems: "center",
-              //left:"40%"
-              marginRight: "1.5%",
-              // marginLeft: "57%",
+             
             }}
             href="https://ztmnasa.netlify.app/"
             target="_blank"
@@ -183,7 +185,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              marginRight: "1.5%",
+              //marginRight: "1.5%",
             }}
             href="https://todo-aditya.netlify.app"
             target="_blank"
@@ -210,7 +212,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              marginRight: "1.5%",
+              //marginRight: "1.5%",
             }}
             href="https://paint0183.netlify.app/"
             target="_blank"
@@ -237,7 +239,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              marginRight: "1.5%",
+              //marginRight: "1.5%",
             }}
             //href="https://drummusic.netlify.app"
             onClick={() => handleClick()}
@@ -264,7 +266,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              marginRight: "1.5%",
+              //marginRight: "1.5%",
             }}
             href="https://chatfullstack.netlify.app"
             target="_blank"
@@ -291,7 +293,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              marginRight: "1.5%",
+              //marginRight: "1.5%",
             }}
             href="https://github.com/aditya-ahlawat-1309"
             target="_blank"
@@ -318,7 +320,7 @@ const Icons = () => {
               color: "green",
               textDecoration: "none",
               fontWeight: "bold",
-              marginRight: "1.5%",
+              //marginRight: "1.5%",
             }}
             href="https://dicegamedice.netlify.app"
             target="_blank"
